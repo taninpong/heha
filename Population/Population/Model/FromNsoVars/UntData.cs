@@ -13,7 +13,7 @@ namespace NsoGetData.Models
     {
         public string UntID { get; set; }
         public string BuildingId { get; set; }
-        public int? Personcount { get; set; }
+        public string Personcount { get; set; }
         public string Skip { get; set; }
         public string AllPersonCount { get; set; }
         public string malePerson { get; set; }

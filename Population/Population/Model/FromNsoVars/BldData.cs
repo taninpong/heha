@@ -9,7 +9,7 @@ namespace NsoGetData.Models
     {
         public string  _id { get; set; }
         public string EA { get; set; }
-        public int? Ordering { get; set; }
+        public string Ordering { get; set; }
         public string Road { get; set; }
         public string Alley { get; set; }
         public string Name { get; set; }
